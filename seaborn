@@ -1,0 +1,26 @@
+Trends : A trend is defined as a pattern of change
+	sns.lineplot - Line charts are best to show trends over a period of time, and multiple lines can be used to show trends in more than one group.
+
+
+Relationship : There are many different chart types that can be used to understand relationships between variables in a dataset
+
+	sns.barplot		: useful for comparing quantities corresponding to different groups
+
+	sns.heatmap		: Heatmaps can be used to find color coded patterns in tables of numbers
+
+	sns.scatterplot	: show relationship netween two continous varibales
+
+	sns.regplot		: including a regression line in the scatterplot makes it easier to see any linear relationship between two variables
+
+	sns.lmplot		: This command is useful for drawing multiple regression lines, if the scatter plot contains multiple,color-coded groups.
+
+	sns.swarmplot	: Categorical scatter plots show the relationship between a continous varibale and a categorical variable
+
+
+Distribution: We visualize distributions to show the possible values that we can expect to see in a varibale, along with how likely tehy are.
+
+	sns.histplot	: show distribution of a single numerical variable
+
+	sns.kdeplot		: show an estimated, smooth distribution of a single numerical variable
+
+	sns.jointplot	: useful for simulataneously displaying a 2D KDE plot with the corresponding KDE plots for each individual variable
